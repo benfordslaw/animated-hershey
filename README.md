@@ -6,6 +6,9 @@ Animated version of [Lingdong's p5.hershey.js](https://github.com/LingDong-/p5-h
 
 ### Basic usage
 ```javascript
+P5.animatedHershey.reset([speed]);
+//where speed is a value from 0 to 1
+
 P5.animatedHershey.putText([animationStartTime], [textIsAnimated], [text], {
   cmap: [hersheyFontcmap],
   align: [alignment]
